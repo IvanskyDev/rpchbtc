@@ -1,0 +1,3 @@
+```shell
+    cmake -DCMAKE_POSITION_INDEPENDENT_CODE:BOOL=true -DRC_ENABLE_BOOST_TEST=ON $(pwd)
+    make && make install
